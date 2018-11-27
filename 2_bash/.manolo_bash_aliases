@@ -1,0 +1,18 @@
+# core utils
+alias ls="ls -A --color=auto"
+alias grep="grep --color"
+alias go="gnome-open"
+alias wcl="wc -l"
+
+# grep
+alias psg="ps aux | grep"
+alias hg="history | grep"
+
+# debian
+alias ins="sudo apt-get install"
+
+# chrome
+alias GOOGLE-CHROME="google-chrome"
+alias chrome="google-chrome"
+
+

@@ -56,7 +56,10 @@ gnuplot
 #MEDIA
 mplayer
 ffmpeg
+frei0r-plugins
+dvdauthor
 kdenlive
+inkscape
 #MORE
 tree
 silversearcher-ag

@@ -18,7 +18,7 @@ zenity --list --title="Choose the packages to be installed" \
 do
     if [[ ${package} != "\#*" ]]
     then
-        echo "Instaling ${package}..."
+        echo "Installing ${package}..."
         sudo apt-get install -y "${package}"
         echo "${package} was installed."
     else

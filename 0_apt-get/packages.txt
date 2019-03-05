@@ -27,6 +27,7 @@ banshee
 lyx
 dia
 cowsay
+fortunes
 fortune-mod
 compizconfig-settings-manager
 hamster-applet

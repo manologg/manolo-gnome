@@ -61,6 +61,7 @@ frei0r-plugins
 dvdauthor
 kdenlive
 inkscape
+youtube-dl
 #MORE
 tree
 silversearcher-ag

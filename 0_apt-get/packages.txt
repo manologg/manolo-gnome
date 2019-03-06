@@ -73,4 +73,3 @@ gnome-paint
 vsftpd
 imagemagick
 
-

@@ -63,7 +63,6 @@ kdenlive
 inkscape
 youtube-dl
 #MORE
-tree
 silversearcher-ag
 p7zip
 p7zip-full
@@ -73,3 +72,5 @@ ispell
 gnome-paint
 vsftpd
 imagemagick
+
+

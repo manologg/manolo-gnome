@@ -72,3 +72,4 @@ ispanish
 ispell
 gnome-paint
 vsftpd
+imagemagick

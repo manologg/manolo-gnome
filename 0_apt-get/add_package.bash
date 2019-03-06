@@ -6,9 +6,10 @@ new_package=$1
 if [ -z ${new_package} ]
 then
     echo "usage: $0 <package name>"
+    exit
 fi
 
-sudo apt-get install ${new_package}
+sudo apt-get install -y ${new_package}
 
 cd ${working_dir}
 echo ${new_package} >> packages.txt

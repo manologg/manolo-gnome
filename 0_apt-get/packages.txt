@@ -72,4 +72,4 @@ ispell
 gnome-paint
 vsftpd
 imagemagick
-tree
+

@@ -5,6 +5,7 @@ alias go="gnome-open"
 alias wcl="wc -l"
 
 # grep
+alias lsg="ls | grep "
 alias psg="ps aux | grep"
 alias hg="history | grep"
 

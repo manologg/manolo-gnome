@@ -74,3 +74,4 @@ vsftpd
 imagemagick
 tree
 python-lxml
+htop

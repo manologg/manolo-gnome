@@ -75,3 +75,4 @@ imagemagick
 tree
 python-lxml
 htop
+ipython

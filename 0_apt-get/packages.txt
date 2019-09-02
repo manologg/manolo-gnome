@@ -1,7 +1,6 @@
 #UBUNTU
 ubuntu-restricted-extras
 #DEBIAN
-firmware-iwlwifi
 ntfs-3g
 flashplugin-nonfree
 flashplugin-nonfree-extrasound

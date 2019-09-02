@@ -10,6 +10,8 @@ do
     echo -n "TRUE $i " >> ${package_list}
 done
 
+sudo apt-get update
+
 zenity --list --title="Choose the packages to be installed" \
        --checklist --separator="\n" \
        --width=400 --height=400 \

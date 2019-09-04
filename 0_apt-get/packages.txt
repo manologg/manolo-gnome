@@ -7,8 +7,6 @@ flashplugin-nonfree-extrasound
 unrar
 #MINE
 easystroke
-virtualbox-ose
-virtualbox-guest-additions
 audacity
 crack-attack
 ssh
@@ -32,7 +30,7 @@ compizconfig-settings-manager
 hamster-applet
 gdebi
 #PROGRAMMING
-eclipse
+maven
 gedit-plugins
 terminator
 guake
@@ -42,13 +40,11 @@ git
 vim
 postgresql
 sqlite3
-#MEKAMI
 python
 python-pip
 python-virtualenv
-libffi-dev
-libmemcached-dev
-libssl-dev
+python-lxml
+ipython
 #MATH
 octave-plot
 octave-statistics
@@ -72,6 +68,4 @@ gnome-paint
 vsftpd
 imagemagick
 tree
-python-lxml
 htop
-ipython

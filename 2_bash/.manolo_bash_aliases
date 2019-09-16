@@ -16,4 +16,9 @@ alias ins="sudo apt-get install"
 alias GOOGLE-CHROME="google-chrome"
 alias chrome="google-chrome"
 
+# util
+alias json="python -m json.tool"
 
+# java
+alias java8="sudo update-java-alternatives -s java-1.8.0-openjdk-amd64; java -version"
+alias java11="sudo update-java-alternatives -s java-1.11.0-openjdk-amd64; java -version"

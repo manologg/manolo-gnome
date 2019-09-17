@@ -18,7 +18,9 @@ alias chrome="google-chrome"
 
 # util
 alias json="python -m json.tool"
+alias tmp="cd /tmp; mkdir asd_\$(date +%Y%m%d_%H%M%S); cd \$(\ls -tr . | tail -1); gedit asd"
 
 # java
 alias java8="sudo update-java-alternatives -s java-1.8.0-openjdk-amd64; java -version"
 alias java11="sudo update-java-alternatives -s java-1.11.0-openjdk-amd64; java -version"
+

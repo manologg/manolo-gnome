@@ -32,3 +32,6 @@ alias mvn_list_check="echo; echo -n \"What do you want to filter? \"; read i;
                       echo -n \"dependencies: \"; cat list | wc -l;
                       echo -n \"unique dependencies: \"; cat list | cut -d ':' -f 1-3 | sort | uniq | wc -l"
 
+# dgf
+alias dgf="cd git/dgf; nautilus ~/git/dgf ftp://disc-golf-friends.de/"
+

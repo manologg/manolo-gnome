@@ -1,5 +1,3 @@
-#UBUNTU
-ubuntu-restricted-extras
 #DEBIAN
 ntfs-3g
 flashplugin-nonfree
@@ -13,14 +11,10 @@ ssh
 wine
 alarm-clock
 bb
-vlc
 caca-utils
-gimp
-octave
 cheese
 gtk-recordMyDesktop
 sl
-banshee
 lyx
 dia
 cowsay
@@ -50,10 +44,13 @@ python-virtualenv
 python-lxml
 ipython
 #MATH
+octave
 octave-plot
 octave-statistics
 gnuplot
 #MEDIA
+gimp
+vlc
 mplayer
 ffmpeg
 frei0r-plugins

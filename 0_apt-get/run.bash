@@ -12,6 +12,8 @@ done
 
 sudo apt-get update
 
+sudo apt-get install ubuntu-restricted-extras
+
 zenity --list --title="Choose the packages to be installed" \
        --checklist --separator="\n" \
        --width=400 --height=400 \

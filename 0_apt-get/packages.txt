@@ -77,3 +77,6 @@ imagemagick
 tree
 htop
 xautomation
+galternatives
+xclip
+

@@ -79,4 +79,6 @@ htop
 xautomation
 galternatives
 xclip
-
+curl
+xmllint
+jq

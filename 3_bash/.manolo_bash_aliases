@@ -18,6 +18,7 @@ alias chrome="google-chrome"
 
 # util
 alias json="python -m json.tool"
+alias xml="xmllint --format -"
 alias tmp="cd /tmp; mkdir asd_\$(date +%Y%m%d_%H%M%S); cd \$(\ls -tr . | tail -1); gedit asd"
 
 # java
@@ -33,5 +34,6 @@ alias mvn_list_check="echo; echo -n \"What do you want to filter? \"; read i;
                       echo -n \"unique dependencies: \"; cat list | cut -d ':' -f 1-3 | sort | uniq | wc -l"
 
 # dgf
-alias dgf="cd git/dgf"
+alias dgf="cd ~/private_git/dgf/future_webpage; source env/bin/activate; export DJANGO_ENV=dev"
+alias dgf-run="cd ~/private_git/dgf/future_webpage; bash run.bash runserver"
 

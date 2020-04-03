@@ -2,6 +2,9 @@
 
 working_dir=`dirname $0`
 
-sudo cp mgg@foryouandyourcustomers.com /usr/bin/
-sudo chmod +x /usr/bin/mgg@foryouandyourcustomers.com
+for file in mgg@foryouandyourcustomers.com whereby-manuelgarciagarcia
+do
+    sudo cp $file /usr/bin/
+    sudo chmod +x /usr/bin/$file
+done
 

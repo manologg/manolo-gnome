@@ -9,6 +9,12 @@ alias lsg="ls | grep "
 alias psg="ps aux | grep"
 alias hg="history | grep"
 
+# fzf
+alias lsf="ls | fzf"
+alias psf="ps aux | fzf"
+alias hf="history | fzf"
+alias ff="find * -type f | fzf"
+
 # debian
 alias ins="sudo apt-get install"
 
@@ -20,6 +26,7 @@ alias chrome="google-chrome"
 alias json="python -m json.tool"
 alias xml="xmllint --format -"
 alias tmp="cd /tmp; mkdir asd_\$(date +%Y%m%d_%H%M%S); cd \$(\ls -tr . | tail -1); gedit asd"
+alias show_ip="hostname -I"
 
 # java
 alias java8="sudo update-java-alternatives -s java-1.8.0-openjdk-amd64; java -version"
@@ -33,7 +40,10 @@ alias mvn_list_check="echo; echo -n \"What do you want to filter? \"; read i;
                       echo -n \"dependencies: \"; cat list | wc -l;
                       echo -n \"unique dependencies: \"; cat list | cut -d ':' -f 1-3 | sort | uniq | wc -l"
 
+# git
+alias rm_orig="find . -iname \"*.orig\" | xargs rm"
+
 # dgf
-alias dgf="cd ~/private_git/dgf/future_webpage; source env/bin/activate; export DJANGO_ENV=dev"
-alias dgf-run="cd ~/private_git/dgf/future_webpage; bash run.bash runserver"
+alias dgf="cd ~/private_git/dgf; source env/bin/activate; export DJANGO_ENV=dev; source secrets"
+alias dgf-run="cd ~/private_git/dgf; bash run.bash runserver"
 

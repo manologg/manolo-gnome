@@ -55,6 +55,7 @@ octave-plot
 octave-statistics
 gnuplot
 #MEDIA
+sox
 gimp
 vlc
 mplayer

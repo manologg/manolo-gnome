@@ -31,6 +31,8 @@ alias show_ip="hostname -I"
 # java
 alias java8="sudo update-java-alternatives -s java-1.8.0-openjdk-amd64; java -version"
 alias java11="sudo update-java-alternatives -s java-1.11.0-openjdk-amd64; java -version"
+alias java16="sudo update-java-alternatives -s java-1.16.0-openjdk-amd64; java -version"
+alias java17="sudo update-java-alternatives -s jdk-17; java -version"
 
 # maven
 alias mvn_tree="mvn dependency:tree > /tmp/tree; gedit /tmp/tree"
@@ -51,4 +53,7 @@ alias play_enterprise="play -c2 -n synth whitenoise band -n 100 24 band -n 300 1
 # dgf
 alias dgf="cd ~/private_git/dgf; source env/bin/activate; export DJANGO_ENV=dev; source secrets"
 alias dgf-run="cd ~/private_git/dgf; bash run.bash runserver"
+
+# thunder guanaco
+alias vlog="cd /opt/vlog/; git status"
 

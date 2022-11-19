@@ -4,6 +4,7 @@ flashplugin-nonfree
 flashplugin-nonfree-extrasound
 unrar
 #MINE
+v4l-utils
 easystroke
 audacity
 crack-attack
@@ -16,6 +17,8 @@ cheese
 gtk-recordMyDesktop
 sl
 lyx
+texlive-fonts-recommended
+texlive-fonts-extra
 dia
 cowsay
 fortunes
@@ -38,6 +41,7 @@ git
 vim
 postgresql
 mysql-server
+mysql-server 
 sqlite3
 python
 python-pip

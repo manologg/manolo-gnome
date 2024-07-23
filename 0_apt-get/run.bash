@@ -12,7 +12,7 @@ done
 
 sudo apt-get update
 
-sudo apt-get install ubuntu-restricted-extras
+echo ttf-mscorefonts-installer msttcorefonts/accepted-mscorefonts-eula select true | sudo debconf-set-selections
 
 zenity --list --title="Choose the packages to be installed" \
        --checklist --separator="\n" \

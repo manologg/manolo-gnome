@@ -44,6 +44,7 @@ alias mvn_list_check="echo; echo -n \"What do you want to filter? \"; read i;
 
 # git
 alias rm_orig="find . -iname \"*.orig\" | xargs rm"
+alias rm_merge_conflict_files="for i in BASE REMOTE LOCAL BACKUP; do find . -iname \"*_\${i}_*\"; done | xargs rm"
 alias pull_master="git checkout master; git pull origin master"
 
 # white noise
@@ -57,4 +58,5 @@ alias dgf-run="cd ~/private_git/dgf; bash run.bash runserver"
 
 # thunder guanaco
 alias vlog="cd /opt/vlog/; git status"
+
 
